@@ -11,6 +11,7 @@ on:
 jobs:
   giphy-generator:
     runs-on: ubuntu-latest
+    
     steps:
       - name: GIPHY Generator
         uses: IAmHughes/giphy-generator@v1.0.0
