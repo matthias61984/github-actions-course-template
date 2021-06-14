@@ -1,13 +1,13 @@
-name: GIPHY Generator
+name: GIPHY generator
 
-on:
-  issues:
+on: 
+  issues: 
     types: [opened, edited]
   pull_request:
     types: [opened, edited]
   issue_comment:
     types: [created, edited]
-   
+    
 jobs:
   giphy-generator:
     runs-on: ubuntu-latest
